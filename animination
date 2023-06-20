@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+
+
+<html >
+
+<head >
+
+    <title>assigment4</title>
+
+
+
+    <style>
+
+        ul{
+
+            list-style-type:none;
+
+        }
+
+
+
+       @keyframes Myanimation {
+
+
+
+
+
+    0% { background-color:#c2c2c2 ;border-left: 8px solid #283D8B;     }
+
+    25% { background-image: linear-gradient(to right,#283D8B 60%,#283D8B 40%,#c2c2c2 40%);color:white; }
+
+    50% { background-image: linear-gradient(to right,#283D8B 80%,#283D8B 60%,#c2c2c2 10%);color:white; } 
+
+    75% {background-image: linear-gradient(to right,#283D8B 100%,#283D8B 90%,#c2c2c2 2%);color:white;}
+
+    100% { background-color: #283D8B;color:white}
+
+       
+
+    }
+
+
+
+        .country1{
+
+          float: left;
+
+    background-color: #c2c2c2;
+
+    margin-right: 52px;
+
+    padding: 6px;
+
+    margin-left: 4px;
+
+   width: 33%;
+
+   border-left: 8px solid #283D8B;
+
+
+
+
+
+}
+
+        .country1:hover{
+
+            animation:Myanimation 0.5s;
+
+            background-color: #283D8B;
+
+            color:white;
+
+           
+
+        }
+
+
+
+          .country2:hover{
+
+            animation:Myanimation 0.5s;
+
+            background-color: #283D8B;
+
+            color:white;
+
+        }
+
+           
+
+       
+
+        .country2{
+
+            padding: 6px;
+
+    /*background-image:linear-gradient(to right,#1376ef 2%,#c2c2c2 100%,#c2c2c2 100%);*/
+
+    border-left: 8px solid #283D8B;
+
+    background-color:#c2c2c2;
+
+    margin-left: 190px;
+
+    margin-right: 73%;
+
+ 
+
+    width: 50%;
+
+   
+
+        }
+
+        .overall-list{
+
+               border: 2px solid  #1376ef;
+
+    width: 32%;
+
+    margin-left: 30%;
+
+    padding: 40px;
+
+    margin-top: 80px;
+
+
+
+        }
+
+
+
+        /*.alpha{
+
+            font-size:30px;
+
+            font-weight:800;
+
+        }*/
+
+
+
+        span{
+
+             font-size:30px;
+
+            font-weight:800;
+
+            color:#283D8B;
+
+                margin-left: 21px;
+
+        }
+
+
+
+       .alpha{
+
+    BORDER-BOTTOM: 2PX SOLID #CECECE;
+
+    PADDING-BOTTOM: 25PX;
+
+       }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <form >
+
+        <div>
+
+
+
+
+
+
+
+            <ul class="overall-list">
+
+                <li class="alpha"><span>A</span>
+
+                    <ul>
+
+                        <li class="country1">Afganisthan</li>
+
+                        <li class="country2">Austrailia</li>
+
+                    </ul>
+
+                </li>
+
+                <li class="alpha"><span>B</span>
+
+                     <ul>
+
+                        <li class="country1">Brazil</li>
+
+                        <li class="country2">Bangladesh</li>
+
+                    </ul>
+
+                </li>
+
+                <li class="alpha"><span>C</span>
+
+                     <ul>
+
+                        <li class="country1">China</li>
+
+                        <li class="country2">Colombia</li>
+
+                    </ul>
+
+                </li>
+
+                <li class="alpha"><span>F</span>
+
+                     <ul>
+
+                        <li class="country1">Finland</li>
+
+                        <li class="country2">France</li>
+
+                    </ul>
+
+                </li>
+
+                <li class="alpha"><span>I</span>
+
+                     <ul>
+
+                        <li class="country1">India</li>
+
+                        <li class="country2">Iran</li>
+
+                    </ul>
+
+                </li>
+
+                <li class="alpha"><span>R</span>
+
+                     <ul>
+
+                        <li class="country1">Romania</li>
+
+                        <li class="country2">RUSSIA</li>
+
+                    </ul>
+
+                </li>
+
+                <li class="alpha"><span>U</span>
+
+                     <ul>
+
+                        <li class="country1">United Kingdom</li>
+
+                        <li class="country2">United State Of America</li>
+
+                    </ul>
+
+                </li>
+
+            </ul>
+
+        </div> 
+
+    </form>
+
+</body>
+
+</html>
