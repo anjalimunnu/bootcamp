@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+    }
+    
+    *{  background-color: ;
+        margin:0px ;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    /* styles of header tag */
+    header{
+        background-color: #6b6b6b;
+        color: #ffffff;
+        padding:30px;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    /* style for nav tag */
+    nav{
+        background-color: #b1afaf;
+        padding: 15px;
+    }
+    
+    nav ul{
+        list-style: none;
+    }
+    
+    
+    nav ul li a:link,
+    nav ul li a:visited{
+        padding: 10px 200px ;
+        text-decoration: none;
+        display: inline-block;
+        color: #ffffff;
+        transition: background-color 0.3s;
+    }
+    
+    nav ul li a:hover{
+        background-color: #929191;
+    }
+    nav ul li a{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    /* style for aside  tag */
+    aside {
+        background-color: rgb(74, 74, 203);
+        padding: 15px;
+    }
+    
+    aside ul{
+        list-style: none;
+    }
+    aside  ul li a:link,
+    aside  ul li a:visited{
+        padding: 10px 200px ;
+        text-decoration: none;
+        display: inline-block;
+        color: #ffffff;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+    aside  ul li a:hover{
+        background-color:rgb(239, 68, 68) ;
+    }
+    aside  ul li a{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    /* style for main tag  */
+    main{
+        padding: 30px;
+        min-height: 80vh;
+    }
+    section.box{
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    footer{
+        background-color: black;
+        color: #ffffff;
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+    /* small devices */
+    @media only screen and (max-width:768px) {
+        nav ul a{
+            width: 100%;
+        }
+    }
+    /* large devices */
+    @media only screen and (min-width:769px) {
+        nav ul a{
+            width: auto;
+            float:left;
+        }
+    
+        nav{
+            height: 80px;
+        }
+        aside  ul a{
+            width: auto;
+            float:left;
+        }
+    
+        aside {
+            min-height: 80px;
+            float: left;
+            width: 20%;
+        }
+        main{
+            float: left;
+            width: 80%;
+        }
+        section.box{
+            float: left;
+            width: 30%;
+        }
+        footer{
+            clear: left;
+        }
+    }</style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!--[if lt lE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <h2>Layout</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">contact </a></li>
+        <li><a href="#">Service</a></li>
+      </ul>
+    </nav>
+    <aside>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">contact </a></li>
+        <li><a href="#">Service</a></li>
+      </ul>
+    </aside>
+    <main>
+        <section class ="box1">
+            <h3>Box1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eaque. Corrupti rerum architecto provident eaque, commodi eveniet distinctio eos maiores.</p>
+        </section>
+        <section class ="box2">
+            <h3>Box2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eaque. Corrupti rerum architecto provident eaque, commodi eveniet distinctio eos maiores.</p>
+        </section>
+        <section class ="box3">
+            <h3>Box3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eaque. Corrupti rerum architecto provident eaque, commodi eveniet distinctio eos maiores.</p>
+        </section>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>
