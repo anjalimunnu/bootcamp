@@ -36,3 +36,72 @@
     <button>Search</button>
 </div>
 </html>
+
+
+
+-----------------------------------<!--navbar amazon 2 with layout --> --------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>*{
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+    }
+    .contentbox{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        display: inline-block;
+    }
+    #navbar{
+        background-color: black;
+        color: white;
+        height: 60px;
+    }
+    a{
+        margin-right: 200px;
+        text-decoration: none;
+        color: white;
+    }
+    #logo{
+        color: #f08804;
+        font-size: 25px;
+    }
+    button{
+        background-color: #f08804;
+    }
+    #content{
+        height: 610px;
+    }
+    footer{
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+<header>
+    <div id="navbar">
+        <a href="#" id="logo">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My Cart</a>
+        <a href="#">Contact Us</a>
+        <input placeholder="search amazon.in">
+        <button>Search</button>
+    </div>
+</header>
+<div id="content">
+    <div class="contentbox" style="background-color: rgba(225, 0, 0, 0.5);">buy your favorite soap</div>
+    <div class="contentbox" style="background-color: rgba(0, 255, 0, 0.5);">buy your favorite gadgets</div>
+    <div class="contentbox" style="background-color: rgba(0, 0, 255, 0.5);">clothes</div>
+</div>
+<footer>Made with &hearts; by Amazon <br>
+&#169; 1996-2023 , Amazon.com, Inc. or its affiliates</footer>
+</body>
+</html>
